@@ -17,8 +17,8 @@ def clean_skills(skill_text):
     return skill_text.strip()
 
 # Streamlit App UI
-st.title("Job Clustering Based on Required Skills")
-st.write("This app classifies a job description or skill list into a pre-learned cluster.")
+st.title("Skill-Based Job Clustering System")
+st.write("This app assigns job descriptions or skill sets to learned clusters using machine learning.")
 
 user_input = st.text_area("Enter job description or skills (comma-separated):", "")
 
